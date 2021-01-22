@@ -1,0 +1,22 @@
+{
+  "name": "racket-bot",
+  "version": "0.1.0",
+  "description": "\"nooo you can't just IPC your way out of everything!\" \"haha child_process go brrr\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwinfy/racket-bot.git"
+  },
+  "author": "Alwinfy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alwinfy/racket-bot/issues"
+  },
+  "homepage": "https://github.com/Alwinfy/racket-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.6.4"
+  }
+}
