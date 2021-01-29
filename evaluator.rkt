@@ -8,12 +8,16 @@
                  (sandbox-error-output #f))
     (make-evaluator 'racket/base)))
 
+#|
 (define evaluators (make-hash))
 
 (define (get-evaluator id)
   (unless (hash-has-key? evaluators id)
     (hash-set! evaluators id (custom-evaluator)))
   (hash-ref evaluators id))
+|#
+
+(define (get-evaluator id) (custom-evaluator))
 
 (define (deserialize str)
   (let ((expr (string->jsexpr str)))
